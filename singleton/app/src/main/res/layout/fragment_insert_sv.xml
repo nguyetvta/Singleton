@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add student"
+            android:textSize="50sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_name_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:hint="Student's name"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_age_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Student's age"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/add_student_btn"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/black"
+            android:text="Add" />
+
+
+    </LinearLayout>
+
+</layout>
